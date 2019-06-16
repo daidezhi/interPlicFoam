@@ -43,12 +43,11 @@ wmake
 
 ## Demos
 
-Two dam-breaking cases are available in http://dx.doi.org/10.17632/wm5w5g3kzt.1
- (```damBreak.tar.gz``` and ```damBreakKleefsman.tar.gz```).
+Two dam-breaking tutorial cases are available in http://dx.doi.org/10.17632/wm5w5g3kzt.1 (```damBreak.tar.gz``` and ```damBreakKleefsman.tar.gz```).
 
-**It should be noted that ```damBreakKleefsmanFull.tar.gz``` is the numerical simulation results associated with the paper https://doi.org/10.1002/fld.4750.**
+>**It should be noted that ```damBreakKleefsmanFull.tar.gz``` is the numerical simulation results associated with the paper https://doi.org/10.1002/fld.4750.**
 
-**The commands are integrated into the ```Allrun``` and ```Allrun-parallel``` script for each case.**
+>**The commands are integrated into the ```Allrun``` and ```Allrun-parallel``` script for each case.**
 
 ### ```damBreak``` (2D)
 
@@ -56,6 +55,8 @@ Two dam-breaking cases are available in http://dx.doi.org/10.17632/wm5w5g3kzt.1
 
 ### ```damBreakKleefsman``` (3D)
 
+
+<img src="https://i.imgur.com/eOI9OEE.gif">
 
 ## Change Log
 
