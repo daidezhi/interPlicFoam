@@ -6,4 +6,4 @@
 
 ![](http://latex.codecogs.com/gif.latex?\\vec{n}\cdot\vec{X}+D_0=0),
 
-where ![](http://latex.codecogs.com/gif.latex?\\vec{n}) is the unit orientation vector, ![](http://latex.codecogs.com/gif.latex?\\vec{X}) abritry point on the plane and ![](http://latex.codecogs.com/gif.latex?\\D_0) the signed distance.
+where ![](http://latex.codecogs.com/gif.latex?\\vec{n}) is the unit orientation vector, ![](http://latex.codecogs.com/gif.latex?\\vec{X}) abritry point on the plane and ![](http://latex.codecogs.com/gif.latex?D_0) the signed distance.
