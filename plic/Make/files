@@ -1,0 +1,7 @@
+plicInterface/plicInterface.C
+plicInterfaceField/plicInterfaceField.C
+plicCutFace/plicCutFace.C
+plicCutCell/plicCutCell.C
+plicVofSolving/plicVofSolving.C
+
+LIB = $(FOAM_USER_LIBBIN)/libplicVofSolving
