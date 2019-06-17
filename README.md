@@ -57,11 +57,11 @@ Two dam-breaking tutorial cases are available in http://dx.doi.org/10.17632/wm5w
 
 2. Mesh
 
-<img src="https://i.imgur.com/jkn2VvK.png" width="500">
+<img src="https://i.imgur.com/jkn2VvK.png" width="400">
 
 3. Time history of interface profile
 
-<img src="https://imgur.com/lKXr6KS.gif" width="500">
+<img src="https://imgur.com/lKXr6KS.gif" width="400">
 
 
 
