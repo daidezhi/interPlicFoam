@@ -53,8 +53,7 @@ Two dam-breaking tutorial cases are available in http://dx.doi.org/10.17632/wm5w
 
 1. Geometry and mesh
 
-<img src="https://i.imgur.com/FQTp96O.png" width="400">
-<img src="https://i.imgur.com/jkn2VvK.png" width="400">
+<img src="https://i.imgur.com/FQTp96O.png" width="400"><img src="https://i.imgur.com/jkn2VvK.png" width="400">
 
 2. Time history of interface profile
 
