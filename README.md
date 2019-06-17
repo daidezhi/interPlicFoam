@@ -61,7 +61,7 @@ Two dam-breaking tutorial cases are available in http://dx.doi.org/10.17632/wm5w
 
 ![Imgur](i.imgur.com/8Avh8h7.gif)
 
-<img src="http://www.sheawong.com/wp-content/uploads/2013/08/keephatin.gif">
+<img src="imgur.com/8Avh8h7.gif">
 
 
 ## Change Log
