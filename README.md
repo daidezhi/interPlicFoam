@@ -41,13 +41,27 @@ wmake
 *All of the compiling commands above have been integrated into ```Allwmake``` script.*
 
 
+## Usage
+
+The usage of ```interPlicFoam``` is similar with ```interFoam```, however, two extra settings should be considered for ```interPlicFoam```:
+
+* ```gradSchemes``` of ```alpha.water``` (```alpha1```) field, e.g.,
+```c++
+gradSchemes
+{
+    default             Gauss linear;
+    gradAlpha           Gauss pointLinear;
+}
+```
+
+
 ## Demos
 
 Two dam-breaking tutorial cases are available in http://dx.doi.org/10.17632/wm5w5g3kzt.1 (```damBreak.tar.gz``` and ```damBreakKleefsman.tar.gz```).
 
 >**It should be noted that ```damBreakKleefsmanFull.tar.gz``` is the numerical simulation results associated with the paper https://doi.org/10.1002/fld.4750.**
 
->**The commands are integrated into the ```Allrun``` and ```Allrun-parallel``` script for each case.**
+>**The commands are integrated into the ```Allrun``` and ```Allrun-parallel``` scripts for each case.**
 
 ### ```damBreak``` (2D)
 
