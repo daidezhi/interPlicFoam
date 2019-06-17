@@ -51,23 +51,20 @@ Two dam-breaking tutorial cases are available in http://dx.doi.org/10.17632/wm5w
 
 ### ```damBreak``` (2D)
 
-1. Geometry
+1. Geometry and mesh
 
-<img src="https://i.imgur.com/FQTp96O.png" width="350">
-
-2. Mesh
-
+<img src="https://i.imgur.com/FQTp96O.png" width="400">
 <img src="https://i.imgur.com/jkn2VvK.png" width="400">
 
-3. Time history of interface profile
+2. Time history of interface profile
 
 <img src="https://imgur.com/lKXr6KS.gif" width="400">
 
-4. Reconstructured interface direct output
+3. Reconstructured interface direct output
 
-<img src="https://imgur.com/b5sXIPJ.png">
+<img src="https://imgur.com/b5sXIPJ.png" width="800">
 
-<img src="https://imgur.com/NShuSop.png">
+<img src="https://imgur.com/NShuSop.png" width="800">
 
 
 ### ```damBreakKleefsman``` (3D)
