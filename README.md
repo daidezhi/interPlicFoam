@@ -55,8 +55,7 @@ Two dam-breaking tutorial cases are available in http://dx.doi.org/10.17632/wm5w
 
 ### ```damBreakKleefsman``` (3D)
 
-
-<img src="https://i.imgur.com/lwdWsZX.gif">
+<img src="https://i.imgur.com/Z8kGlzk.gif">
 
 ## Change Log
 
