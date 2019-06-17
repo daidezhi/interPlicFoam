@@ -6,7 +6,7 @@
 
 ![](http://latex.codecogs.com/gif.latex?\\vec{n}\cdot\vec{X}+D_0=0),
 
-where ![](http://latex.codecogs.com/gif.latex?\\vec{n}) is the unit orientation vector, ![](http://latex.codecogs.com/gif.latex?\\vec{X}) abritry point on the plane and ![](http://latex.codecogs.com/gif.latex?D_0) the signed distance.
+where ![](http://latex.codecogs.com/gif.latex?\\vec{n}) is the unit orientation vector, ![](http://latex.codecogs.com/gif.latex?\\vec{X}) arbitrary point on the plane and ![](http://latex.codecogs.com/gif.latex?D_0) the signed distance.
 
 In the interface reconstruction step, the unit orientation vector ![](http://latex.codecogs.com/gif.latex?\\vec{n}) is evaluated by using the gradient of ```alpha``` field. Then the signed distance ![](http://latex.codecogs.com/gif.latex?D_0) is computed by employing the Standard algorithm developed in:
 
@@ -61,7 +61,7 @@ gradSchemes
     surfCellTol         1e-8;   // Tolerance for marking mixed cells
     nAlphaBounds        3;      // Number of alpha bounding steps
     snapTol             1e-8;   // Tolerance of fraction value snapping
-    clip                true;   // Switch of fraction clipping
+    clip                true;   // Switch of fraction value clipping
     smoothedAlphaGrad   false;  // Switch of smoothed alpha gradient
 
     writePlicFaces      true;   // Switch of reconstructed interface outputting
@@ -94,7 +94,7 @@ Two dam-breaking tutorial cases are available in http://dx.doi.org/10.17632/wm5w
 
 <img src="https://imgur.com/lKXr6KS.gif" width="400">
 
-3. Reconstructured interface direct output
+3. Reconstructed interface output
 
 <img src="https://imgur.com/b5sXIPJ.png" width="800">
 
@@ -109,12 +109,11 @@ Two dam-breaking tutorial cases are available in http://dx.doi.org/10.17632/wm5w
 
 <img src="https://imgur.com/haWjXMc.png" width="500">
 
-
 2. Time history of the interface profiles
 
 <img src="https://i.imgur.com/8ibnl2u.gif">
 
-3. Reconstructured interface direct output
+3. Reconstructed interface output
 
 <img src="https://imgur.com/6z9RrUB.png">
 
