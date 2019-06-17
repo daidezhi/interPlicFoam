@@ -63,7 +63,11 @@ Two dam-breaking tutorial cases are available in http://dx.doi.org/10.17632/wm5w
 
 <img src="https://imgur.com/lKXr6KS.gif" width="400">
 
+4. Reconstructured interface direct output
 
+<img src="https://imgur.com/b5sXIPJ.png">
+
+<img src="https://imgur.com/NShuSop.png">
 
 
 ### ```damBreakKleefsman``` (3D)
