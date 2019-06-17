@@ -45,12 +45,33 @@ wmake
 
 The usage of ```interPlicFoam``` is similar with ```interFoam```, however, two extra settings should be considered for ```interPlicFoam```:
 
-* ```gradSchemes``` of ```alpha.water``` (```alpha1```) field, e.g.,
+* ```gradSchemes``` of ```alpha.water``` (```alpha1```) field (*used for computing interface orientation vectors*), e.g.,
 ```c++
 gradSchemes
 {
     default             Gauss linear;
     gradAlpha           Gauss pointLinear;
+}
+```
+
+* ```solvers``` of ```alpha.water``` (```alpha1```) field, i.e.,
+```c++
+"alpha.water.*"
+{
+    surfCellTol         1e-8;   // Tolerance for marking mixed cells
+    nAlphaBounds        3;      // Number of alpha bounding steps
+    snapTol             1e-8;   // Tolerance of fraction value snapping
+    clip                true;   // Switch of fraction clipping
+    smoothedAlphaGrad   false;  // Switch of smoothed alpha gradient
+
+    writePlicFaces      true;   // Switch of reconstructed interface outputting
+
+    nAlphaSubCycles     1;      // Number of alpha sub-cycles
+
+    // Note: cAlpha is not used by interPlicFoam but must
+    // be specified because interfacePropertes object
+    // reads it during construction.
+    cAlpha              1;
 }
 ```
 
