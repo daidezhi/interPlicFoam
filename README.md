@@ -59,10 +59,9 @@ Two dam-breaking tutorial cases are available in http://dx.doi.org/10.17632/wm5w
 
 <a href="//imgur.com/Z8kGlzk"><img src="https://i.imgur.com/Z8kGlzk.gif"></a>
 
-![Imgur](i.imgur.com/8Avh8h7.gif)
+![Imgur](https://i.imgur.com/cdqHZh4.gif)
 
-<img src="https://i.imgur.com/Z8kGlzk.gif">
-
+<img src="https://i.imgur.com/cdqHZh4.gif">
 
 ## Change Log
 
