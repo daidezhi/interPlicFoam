@@ -1,5 +1,11 @@
 # interPlicFoam
 
+---
+
+:warning: **IMPORTANT** :warning: The latest `interPlicFoam` is available at [geometricVofExt](https://github.com/daidezhi/geometricVofExt).
+
+---
+
 ## Introduction
 
 ```interPlicFoam``` is a two-phase flow solver derived from interFoam for two incompressible, isothermal and immiscible fluids using the PLIC-VOF method. The fraction advecting follows the algorithms developed in [isoAdvector](https://github.com/isoAdvector/isoAdvector). The interface inside a mixed polygonal/polyhedral cell is approximated with an orientated plane which defined as:
